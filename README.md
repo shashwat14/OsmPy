@@ -1,7 +1,4 @@
 # OsmPy
-A python program for coverting a given map area to an adjacency list. Preserves actual distances in metres. 
+This package is being developed for usage in self-driving vehicles. The aim of this project is to allow vehicles to ping their GPS location to this server and obtain way/node its cuurently on. More semantic information can be added to the maps such as lane width, traffic sign locations, etc for improving the prior over unmapped area. This project can also be used as a simulation toolbox for taxi-customer assignment problem. 
 
-# To do 
-1. Create a simulation toolbox for running traffic related simulations
-2. Write A\* algorithm for graph search (shortest path algorithm for finding distance between two given nodes)
-3. Generating a map with only required nodes (ways with bus-stops, or taxi stations, etc)
+Note: This project is curently under development - to be converted into a ROS Package. 
